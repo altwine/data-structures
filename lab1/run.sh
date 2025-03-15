@@ -2,7 +2,7 @@
 set -e
 
 # Build
-g++ "./lab1.c" -o "./lab1"
+gcc "./lab1.c" -o "./lab1"
 
 # Run
 "./lab1"
