@@ -1,7 +1,11 @@
 #!/bin/bash
 set -e
 
-g++ "./lab1.c" -o "./lab1.exe"
-"./lab1.exe"
+# Build
+g++ "./lab1.c" -o "./lab1"
 
-rm "./lab1.exe"
+# Run
+"./lab1"
+
+# Remove tmp executable
+rm "./lab1"
