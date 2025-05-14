@@ -1,0 +1,4 @@
+# Hide DLLs and builds
+lab1/lab1.exe
+lab2/lab2.exe
+lab2/libopenblas.dll
